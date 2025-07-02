@@ -27,3 +27,5 @@ plt.xlabel('Years')
 plt.ylabel('Number of Imigrants')
 plt.xticks(['1980', '1985', '1990', '1995', '2000', '2005', '2010'])
 plt.show()
+
+data_brazil.to_csv('data/brazilian_imigration_to_canada.csv', index=False)
